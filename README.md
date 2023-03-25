@@ -67,3 +67,15 @@ https://favicon.io/favicon-generator/
 - I'm using vscode-styled-components extension
 
 ---
+
+##### components folder
+
+- create a components folder inside src folder
+- create a Logo.js file as we are going to use our logo in multiple places
+- also create a index.js file inside the components folder as we are going to maintain this file for all component folder imports
+
+---
+
+##### React Router Dom
+
+npm i react-router-dom

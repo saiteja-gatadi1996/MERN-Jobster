@@ -2,6 +2,7 @@ import React from 'react'
 import main from '../assets/images/main.svg'
 import styled from 'styled-components'
 import { Logo } from '../components'
+import { Link } from 'react-router-dom'
 
 const Landing = () => {
   return (
@@ -21,7 +22,9 @@ const Landing = () => {
             Stumptown artisan gentrify, trust fund snackwave hoodie jean shorts
             intelligentsia brunch af cliche fam everyday carry microdosing.
           </p>
-          <button className='btn btn-hero'>Login/Register</button>
+          <Link to='/register' className='btn btn-hero'>
+            Login/Register
+          </Link>
         </div>
         {/* image block */}
         <img src={main} alt='main logo' className='img main-img' />
